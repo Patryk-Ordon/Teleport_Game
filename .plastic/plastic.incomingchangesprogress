@@ -1,0 +1,52 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      8
+    ],
+    "SourceCsetId": 11,
+    "DestinationCsetId": 8,
+    "FileConflicts": [
+      {
+        "Path": "/Packages/manifest.json",
+        "ItemId": 131,
+        "ParentItemId": 127,
+        "BaseRevId": 102,
+        "SourceRevId": 1658,
+        "DestinationRevId": 102
+      },
+      {
+        "Path": "/Packages/packages-lock.json",
+        "ItemId": 132,
+        "ParentItemId": 127,
+        "BaseRevId": 103,
+        "SourceRevId": 1659,
+        "DestinationRevId": 103
+      },
+      {
+        "Path": "/.git/index",
+        "ItemId": 271,
+        "ParentItemId": 255,
+        "BaseRevId": 560,
+        "SourceRevId": 1655,
+        "DestinationRevId": 560
+      },
+      {
+        "Path": "/.git/refs/heads/main",
+        "ItemId": 453,
+        "ParentItemId": 394,
+        "BaseRevId": 658,
+        "SourceRevId": 1656,
+        "DestinationRevId": 658
+      },
+      {
+        "Path": "/ProjectSettings/ProjectVersion.txt",
+        "ItemId": 148,
+        "ParentItemId": 129,
+        "BaseRevId": 118,
+        "SourceRevId": 1660,
+        "DestinationRevId": 118
+      }
+    ]
+  }
+]
