@@ -51,6 +51,7 @@ public class LevelGenerator : MonoBehaviour
                 GenerateTile(x, z);
             }
         }
+        ColorTheChildren();
     }
 
     public void ColorTheChildren()
