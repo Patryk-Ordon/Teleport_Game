@@ -153,15 +153,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   map: {fileID: 2800000, guid: d7f72139885e169be9d48655bdd77720, type: 3}
   colorMappings:
-  - color: {r: 1, g: 0, b: 0, a: 0}
+  - color: {r: 1, g: 0, b: 0, a: 1}
     prefab: {fileID: 5881931519087296525, guid: 3d76abc3837f8de22b795ae9040d374a, type: 3}
-  - color: {r: 0, g: 1, b: 0, a: 0}
+  - color: {r: 0, g: 1, b: 0, a: 1}
     prefab: {fileID: 6295599861720872309, guid: af6b2dc9731ce8bb2a943fd83eab940e, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 0}
+  - color: {r: 1, g: 1, b: 1, a: 1}
     prefab: {fileID: 3242272890615099029, guid: 296c5bd770637a65f8c4f6a9d99a4aab, type: 3}
-  - color: {r: 0, g: 0, b: 0, a: 0}
+  - color: {r: 0, g: 0, b: 0, a: 1}
     prefab: {fileID: 3053068863082252592, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
   offset: 5
+  material01: {fileID: 2100000, guid: d4a96aed5b06ada4cb1fba213e1ec513, type: 2}
+  material02: {fileID: 2100000, guid: 3e29c06f2c32973429582f1c48c558f3, type: 2}
 --- !u!4 &2446026
 Transform:
   m_ObjectHideFlags: 0
@@ -3199,17 +3201,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 3755676182669155215, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755676182669155215, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755676182669155215, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7274679817312650286, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.028286
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7274679817312650286, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -36.873398
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7274679817312650286, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 54.2238
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7274679817312650286, guid: 3aff001c5b0f66c0b9e1c0bc1640d4ed, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3252,6 +3266,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4093907135861950106, guid: 3d76abc3837f8de22b795ae9040d374a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5881931519087296525, guid: 3d76abc3837f8de22b795ae9040d374a, type: 3}
       propertyPath: m_Name
       value: FloorLowSpeed
@@ -3312,6 +3330,10 @@ PrefabInstance:
     - target: {fileID: 3242272890615099029, guid: 296c5bd770637a65f8c4f6a9d99a4aab, type: 3}
       propertyPath: m_Name
       value: FloorStandard
+      objectReference: {fileID: 0}
+    - target: {fileID: 7320421996137300147, guid: 296c5bd770637a65f8c4f6a9d99a4aab, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8982998111096956091, guid: 296c5bd770637a65f8c4f6a9d99a4aab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3409,6 +3431,10 @@ PrefabInstance:
     - target: {fileID: 8333436002821134602, guid: af6b2dc9731ce8bb2a943fd83eab940e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8494800650574361668, guid: af6b2dc9731ce8bb2a943fd83eab940e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
